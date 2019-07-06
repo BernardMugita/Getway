@@ -1,0 +1,40 @@
+
+body{
+    background-image: url(../back.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.content{
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    font-family: fantasy;
+}
+p{
+  font-size: 25px;
+  color: black;
+  }
+.offers{
+  text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.title{
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (min-height:480px) and (min-width:786px){
+  body {
+    background-color: black;
+    color: white;
+
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: yellowgreen;
+  }
+}
